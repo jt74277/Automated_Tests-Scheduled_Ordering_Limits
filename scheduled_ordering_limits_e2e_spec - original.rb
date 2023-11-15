@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def_shared_example "Scheduled Ordering + Order Limits for all order types" do
   # Given that dispensary admin is logged in
   settings.login_as admin
